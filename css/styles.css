@@ -1,7 +1,14 @@
-.background{
-    background-image: url(../images/background.jpg);
-    background-repeat: no-repeat;
+
+body {
+    background-image: url("../images/background.jpg");
+}
+
+h1 {
+    text-align: center;
+    font-family: cursive;
+    font-size : 90px;
+    background-color: green;
     
-    background-size:cover;
-    margin: 50px;
+    
+
 }
