@@ -1,6 +1,7 @@
 
 body {
     background-image: url("../images/background.jpg");
+    margin: 50px;
 }
 
 h1 {
@@ -20,7 +21,6 @@ p {
 
 .background{
     background-color: honeydew;
-    width:1400px;
     float: center;
 }
 
@@ -34,5 +34,17 @@ p {
     background-color: honeydew;
     width: 400px
     
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.output{
+    background-color: honeydew;
 
 }
