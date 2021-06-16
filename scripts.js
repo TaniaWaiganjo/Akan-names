@@ -5,6 +5,24 @@ function takevalue(){
     var year=document.getElementById("Year").value;
 }
 
+consle.log("date")
+
+var cc=year.charAt(0)+year.charAt(1)
+var yy=year.charAt(2)+year.charAt(3)
+
+
+
+var day= ( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(month+1)/10)) + date ) % 7
+
+consle.log("day")
+
+if (gender==="male") {
+
+} 
+
+
+
+
 
    
 
