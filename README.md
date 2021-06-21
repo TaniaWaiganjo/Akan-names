@@ -11,7 +11,7 @@ To run this code :
 
 cd path to your directory of choice
 
-git clone https://github.com/TaniaWaiga
+git clone https://github.com/TaniaWaiganjo.github.io.Akan-names
 
 open the file in the code editor of your choice and run the index.html file
 
