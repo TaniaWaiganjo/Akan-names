@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/styles.css"rel="stylesheet" type="text/css"
-    <script scr="scripts.js"></script>
+    <script scr="scripts.js" type="text/javascript"></script>
     
 
 
@@ -27,55 +27,26 @@
       
 
         <div class="Birthdate">
-            <table>
-            <form onsubmit= "takevalue()">
-                <tr>
-                    <th>
-                        Gender:
-                    </th>
-                    <th>
-                        <input type="text" id="Gender" placeholder="male/female"/>
-                    </th>
-                </tr>
-                <tr>
-                    <th>
-                        Date of birth:
-                    </th>
-                    <th>
-                        <input type="number" id="Date" placeholder="eg.1,10,20"/>
-                    </th>
-                </tr>
-                <tr>
-                    <th>
-                        Month of birth:
-                    </th>
-                    <th>
-                        <input type="number" id="Month" placeholder="eg. 1,4,8,12"/>
-                    </th>
-                </tr>
-                <tr>
-                    <th>
-                        Year of birth:
-                    </th>
-                    <th>
-                        <input type="number" id="Year" placeholder="eg.1960,1930,2020"/>
-                    </th>
-                </tr>
-                <tr>
-                    <th>
-                        <input type="submit">
-                    </th>
-                </tr>
+            <form id="form">
+                <label>Gender
+                <input type="text"gender="gender" required placeholder="male/female" id="Gender">
+                </label>
+                <label>Date 
+                <input type="number"dob="dob" required placeholder="eg.1,2,15" id="Date">
+                </label>
+                <label>Month
+                <input type="number"mob="mob" required placeholder="eg. 1,2,3" id="Month">
+                </label>
+                <label>Year
+                <input type="number"yob="yob" required placeholder="eg. 2000,1970,1990" id="Year">
+                </label>
+                
+                <button type="submit">Submit</button>
+
             </form>
-            </table>
-
-            
-
-
         </div>
-        <div class="output">
-            <p>Your Akhan name is</p>
-        </div>
+
+            <h3 id="output"> </h3>
 
         </body>
          
